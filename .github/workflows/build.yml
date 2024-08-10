@@ -92,6 +92,9 @@ jobs:
           make
           popd
 
+      - name: Display all generated files
+        run: find ./${{ env.BUILD_DIR }} -type f | sort
+
       - name: Copy built binaries to release/
         run: |
           mkdir ./release
