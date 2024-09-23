@@ -3,7 +3,7 @@
 # TOOLCHAIN_DIR=<path_to_webos_buildroot_toolchain> ./build_hyperhdr.sh
 
 HYPERHDR_REPO="${HYPERHDR_REPO:-https://github.com/awawa-dev/HyperHDR}"
-HYPERHDR_BRANCH="${HYPERHDR_BRANCH:-flatbuffers_nv12_support}"
+HYPERHDR_BRANCH="${HYPERHDR_BRANCH:-ai_calibration}"
 
 # Toolchain params - No changes needed below this line
 TOOLCHAIN_DIR=${TOOLCHAIN_DIR:-$HOME/arm-webos-linux-gnueabi_sdk-buildroot}
